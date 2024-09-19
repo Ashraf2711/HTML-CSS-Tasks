@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travel Agency</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Valkhov:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -63,85 +64,289 @@
 
     <!-- Things to do Section -->
     <section class="things-to-do">
-        <h2>Things you need <span>to do</span></h2>
+        <h1>Things you need <span>to do</span></h1>
+        <p>We ensure that you’ll embark on a perfectly planned, safe vacation at a price you can afford.</p>
+        <img src="images/ThingsNeedToDoElement.png" alt="thing-to-do"/>
         <div class="cards">
             <div class="card">
+                <img src="images/SignUp.png" alt="SignUp-Logo"/>
                 <h3>Sign Up</h3>
                 <p>Complete the work associated with planning and processing.</p>
             </div>
             <div class="card">
+                <img src="images/WorthOfMoney.png" alt="WorthOfMoney"/>
                 <h3>Worth of Money</h3>
-                <p>After successful transactions, gain access to exclusive deals.</p>
+                <p>After successful access then book from exclusive deals & pricing</p>
             </div>
             <div class="card">
+                <img src="images/ExcitingTravel.png" alt="ExcitingTravel-Logo"/>
                 <h3>Exciting Travel</h3>
-                <p>Start enjoying local experiences.</p>
+                <p>Start and explore a wide range of exciting travel experience.</p>
             </div>
         </div>
     </section>
 
     <!-- Deals & Discounts Section -->
-    <section class="deals">
-        <h2>Exclusive <span>deals & discounts</span></h2>
-        <div class="deals-cards">
-            <!-- Deal Card 1 -->
-            <div class="deal-card">
-                <img src="madrid.jpg" alt="Madrid">
-                <h3>Madrid</h3>
-                <p><span>Spain</span></p>
-                <p>Price: $850</p>
+     
+        <section class="exclusive-deals">
+            <div class="title-container">
+                <h1>Exclusive <span>deals & discounts</span></h1>
+                <p>Discover our fantastic early booking discounts & start planning your journey.</p>
             </div>
-            <!-- Add more deal cards similar to this -->
-        </div>
-    </section>
+    
+            <div class="deals-cards-container">
+                <div class="deal-card">
+                    <img src="images/Madrid.png" alt="Madrid">
+                    <div class="card-content">
+                        <h3>Madrid</h3>
+                        <div class="info">
+                            <p>Spain</p>
+                            <span>⭐ 4.8</span>
+                           
+                        </div>
+                        <div class="price">
+                            <span class="original-price">$950</span>
+                            <span class="discounted-price">$850</span>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="deal-card">
+                    <img src="images/Firenze.png" alt="Firenze">
+                    <div class="card-content">
+                        <h3>Firenze</h3>
+                        <div class="info">
+                            <p>Italy</p>
+                            <span>⭐ 4.5</span>
+                            
+                        </div>
+                        <div class="price">
+                            <span class="original-price">$850</span>
+                            <span class="discounted-price">$750</span>
+                        </div>
+                
+                    </div>
+                </div>
+    
+                <div class="deal-card">
+                    <img src="images/Paris.png" alt="Paris">
+                    <div class="card-content">
+                        <h3>Paris</h3>
+                        <div class="info">
+                            <p>France</p>
+                            <span>⭐ 4.4</span>
+                           
+                        </div>
+                        <div class="price">
+                            <span class="original-price">$699</span>
+                            <span class="discounted-price">$599</span>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="deal-card">
+                    <img src="images/Landon.png" alt="London">
+                    <div class="card-content">
+                        <h3>London</h3>
+                        <div class="info">
+                            <p>UK</p>
+                            <span>⭐ 4.8</span>
+                           
+                        </div>
+                        <div class="price">
+                            <span class="original-price">$850</span>
+                            <span class="discounted-price">$850</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="pagination">
+                <button class="prev-btn">←</button>
+                <button class="next-btn">→</button>
+            </div>
+        </section>
+    
 
     <!-- Vacation Plan Section -->
+   
     <section class="vacation-plan">
-        <h2>Best <span>vacation plan</span></h2>
-        <div class="plans">
-            <!-- Vacation Plans here -->
+        <div class="title-container">
+            <h1>Best <span>vacation plan</span></h1>
+            <p>Plan your perfect vacation with our travel agency. Choose among hundreds of all-inclusive offers!</p>
+        </div>
+
+        <div class="vacation-cards-container">
+            <div class="vacation-card">
+                <img src="images/Rome.png" alt="Rome, Italy">
+                <div class="card-content">
+                    <h3>Rome, Italy</h3>
+                    <div class="trip-info">
+                        <p>📍 10 Days Trip</p>
+                        <p>⭐ 4.8</p>
+                    </div>
+                    <div class="price">
+                        <span class="price-tag">$5,42k</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="vacation-card">
+                <img src="images/London-travel.png" alt="London, UK">
+                <div class="card-content">
+                    <h3>London, UK</h3>
+                    <div class="trip-info">
+                        <p>📍 07 Days Trip</p>
+                        <p>⭐ 4.7</p>
+                    </div>
+                    <div class="price">
+                        <span class="price-tag">$2,42k</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="vacation-card">
+                <img src="images/Osaka.png" alt="Osaka, Japan">
+                <div class="card-content">
+                    <h3>Osaka, Japan</h3>
+                    <div class="trip-info">
+                        <p>📍 10 Days Trip</p>
+                        <p>⭐ 4.8</p>
+                    </div>
+                    <div class="price">
+                        <span class="price-tag">$5,42k</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="pagination">
+            <button class="prev-btn">←</button>
+            <button class="next-btn">→</button>
         </div>
     </section>
 
     <!-- Testimonials Section -->
-    <section class="testimonials">
-        <h2>What people say <span>about us</span></h2>
-        <div class="testimonial">
-            <p>"We enjoyed our trip!"</p>
-            <h4>Miles Taylor</h4>
-            <p>Lahore, Pakistan</p>
+    <section class="testimonial-section">
+        <div class="container">
+        <div class="testimonial-header">
+        <h2>What people say <span>about us.</span></h2>
+        <p>Our Clients send us a bunch of smilies with our services and we love them.</p>
         </div>
-        <!-- Add more testimonials -->
-    </section>
+         
+                    <div class="testimonial-carousel">
+        <button class="carousel-btn prev-btn">&#8592;</button>
+         
+                        <div class="testimonial-card">
+       
+        <div class="testimonial-content">
+        <p>“On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.”</p>
+        <h4>Mike Taylor</h4>
+        <p class="location">Lahore, Pakistan</p>
+        </div>
+        </div>
+         
+                        <button class="carousel-btn next-btn">&#8594;</button>
+        </div>
+        </div>
+        </section>
 
     <!-- Blog Section -->
-    <section class="blog">
-        <h2>Get updates with <span>latest blog</span></h2>
-        <div class="blog-posts">
-            <!-- Blog Post 1 -->
-            <div class="blog-post">
-                <h3>The Amazing Difference</h3>
-                <p>July 27, 2021</p>
-            </div>
-            <!-- Add more blog posts -->
+    <section class="blog-section">
+        <div class="container">
+        <h2>Get update with <span>latest blog</span></h2>
+        <div class="blog-cards">
+        <!-- Blog Post 1 -->
+        <div class="blog-card">
+        <img src="images/blog img1.png" alt="Blog Image 1">
+        <h3>The Amazing Difference a Year of Travelling</h3>
+        <p class="date">July 27, 2021</p>
         </div>
-    </section>
-
+        <!-- Blog Post 2 -->
+        <div class="blog-card">
+        <img src="images/blog img2.png" alt="Blog Image 2">
+        <h3>Travel far enough, you meet yourself.</h3>
+        <p class="date">July 27, 2021</p>
+        </div>
+        <!-- Blog Post 3 -->
+        <div class="blog-card">
+        <img src="images/blog img3.png" alt="Blog Image 3">
+        <h3>How to Save Money While Visiting Africa</h3>
+        <p class="date">July 27, 2021</p>
+        </div>
+        <!-- Blog Post 4 -->
+        <div class="blog-card">
+        <img src="images/blog img4.png" alt="Blog Image 4">
+        <h3>Reflections on 5 Months of Travel: Time to Hang</h3>
+        <p class="date">July 27, 2021</p>
+        </div>
+        </div>
+        </div>
+        </section>
+         
     <!-- Subscription Section -->
-    <section class="subscribe">
-        <h2>Subscribe and get exclusive <span>deals & offers</span></h2>
-        <form action="#">
-            <input type="email" placeholder="Enter your email" required>
-            <button type="submit">Subscribe</button>
-        </form>
-    </section>
-
-    <!-- Footer Section -->
-    <footer>
-        <div class="footer-content">
-            <p>&copy; Trabook 2021. All rights reserved.</p>
+    <section class="newsletter">
+        <div class="newsletter-content">
+        <h2>Subscribe and get exclusive <br> deals & offer</h2>
+        <div class="input-group">
+        <input type="email" placeholder="Enter your mail">
+        <button type="submit">Subscribe</button>
         </div>
-    </footer>
+        </div>
+        </section>
+         
+            <!-- Footer Section -->
+        <footer class="footer">
+        <div class="container">
+        <div class="footer-row">
+        <!-- Left Column: Brand & Social Links -->
+        <div class="footer-column">
+        <h3>Trabook <span>☕</span></h3>
+        <p>Book your trip in minutes, get full control for much longer.</p>
+        <div class="social-links">
+        <a href="#"><img src="images/fb.png" alt="Facebook"></a>
+        <a href="#"><img src="images/insta.png" alt="Instagram"></a>
+        <a href="#"><img src="images/twtre.png" alt="Twitter"></a>
+        </div>
+        </div>
+        <!-- Middle Column: Company Links -->
+        <div class="footer-column">
+        <h4>Company</h4>
+        <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Logistics</a></li>
+        <li><a href="#">Privacy & Policy</a></li>
+        </ul>
+        </div>
+         
+                        <!-- Middle Column: Contact Links -->
+        <div class="footer-column">
+        <h4>Contact</h4>
+        <ul>
+        <li><a href="#">Help/FAQ</a></li>
+        <li><a href="#">Press</a></li>
+        <li><a href="#">Affiliates</a></li>
+        </ul>
+        </div>
+         
+                        <!-- Right Column: More Links -->
+        <div class="footer-column">
+        <h4>More</h4>
+        <ul>
+        <li><a href="#">Press Centre</a></li>
+        <li><a href="#">Our Blog</a></li>
+        <li><a href="#">Low Fare Tips</a></li>
+        </ul>
+        </div>
+        </div>
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+        <p>Copyright, Trabook 2022. All rights reserved.</p>
+        <p><a href="#">Terms & Conditions</a></p>
+        </div>
+        </div>
+        </footer>
 
 </body>
 </html>
